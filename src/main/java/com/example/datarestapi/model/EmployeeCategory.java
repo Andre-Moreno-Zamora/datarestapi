@@ -1,6 +1,7 @@
 package com.example.datarestapi.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import lombok.Data;
 
@@ -9,6 +10,6 @@ public class EmployeeCategory implements Serializable {
 
 	private static final long serialVersionUID = -4460779733748460597L;
 
-	public String category;
+	public List<String> categories;
 	
 }
